@@ -11,7 +11,12 @@
 // });
 
 
-var generateName = require('sillyname');
+
+
+//var generateName = require('sillyname');
+
+//importing package using ECMA script node modules
+import generateName from "sillyname";
 var sillyName = generateName();
 
 console.log(`My name is ${sillyName}.`);
